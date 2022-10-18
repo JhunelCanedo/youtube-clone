@@ -276,7 +276,7 @@ nav {
 .grid-child-column {
   position: relative;
   top: 0;
-  transition: top 0.30s ease-in;
+  transition: top 0.30s ease-in-out;
 }
 .grid-child-column:hover {
   position: relative;
