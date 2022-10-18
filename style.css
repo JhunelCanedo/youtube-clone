@@ -271,6 +271,17 @@ nav {
   margin-top: 10px;
 }
 
+/* animation hover top */
+.grid-child-column {
+  position: relative;
+  top: 0;
+  transition: top 0.30s ease-in;
+}
+.grid-child-column:hover {
+  position: relative;
+  top: -20px;
+  z-index: 4;
+}
 .channel-picture {
   width: 35px;
   border-radius: 50%;
