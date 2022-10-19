@@ -251,6 +251,7 @@ nav {
   border-radius: 50%;
 
 }
+
 .video-author-tooltip {
   color: black;
   font-weight: 700;
@@ -279,10 +280,8 @@ nav {
     cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
 */
 .grid-child-column {
+  background-color: white;
   transition: transform 0.30s linear;
-
-  
-
 }
 .grid-child-column:hover {
   /*
@@ -295,7 +294,6 @@ nav {
     */
     transform: scale(1.20);
     z-index: 5;
-
 
 }
 .channel-picture {
