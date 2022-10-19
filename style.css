@@ -278,7 +278,6 @@ nav {
 }
 .grid-child-column:hover {
   transform: translateY(-20px);
-  z-index: 5;
 }
 .channel-picture {
   width: 35px;
