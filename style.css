@@ -184,18 +184,16 @@ nav {
 .nav-links img {
   width: 25px;
  }
-.nav-links {
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
+.nav-links a {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 70px;
 }
 .nav-links:hover {
   background-color: rgb(195, 195, 195);
 }
-
 .grid-main-column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
